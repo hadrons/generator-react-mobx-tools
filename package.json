@@ -1,6 +1,6 @@
 {
   "name": "generator-react-mobx-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generator for components and app modules",
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
     "generators"
   ],
   "keywords": [
-    "react", "mobx", "yeoman", "generator"
+    "react",
+    "mobx",
+    "yeoman",
+    "generator"
   ]
 }
