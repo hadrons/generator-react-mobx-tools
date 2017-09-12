@@ -1,0 +1,23 @@
+{
+  "name": "generator-react-mobx-tools",
+  "version": "1.0.0",
+  "description": "Generator for components and app modules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hadrons/generator-react-mobx-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/hadrons/generator-react-mobx-tools/issues"
+  },
+  "author": "Iguatemi Garin",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "react", "mobx", "yeoman", "generator"
+  ]
+}
