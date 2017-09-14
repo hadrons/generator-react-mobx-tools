@@ -74,8 +74,8 @@ module.exports = class extends Generator {
       this.answers
     )
     this.fs.copyTpl(
-      this.templatePath('scenes/_main.js'),
-      this.destinationPath(`${this._getModulePath()}/scenes/main.js`),
+      this.templatePath('_navigator.js'),
+      this.destinationPath(`${this._getModulePath()}/navigator.js`),
       this.answers
     )
     this.fs.copyTpl(
@@ -93,8 +93,8 @@ module.exports = class extends Generator {
     
     // Routes
     this.fs.copyTpl(
-      this.templatePath('_routes.js'),
-      this.destinationPath(`${this._getModulePath()}/routes.js`),
+      this.templatePath('_router.js'),
+      this.destinationPath(`${this._getModulePath()}/router.js`),
       this.answers
     )
 

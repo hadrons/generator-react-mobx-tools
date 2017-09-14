@@ -1,11 +1,11 @@
 // @flow
 import React from 'react'
-import { Route, Link, Redirect } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 
-import styles from '../../main/styles.css'
-import { TransitionRoute } from '../../main/components'
-import routes from '../routes'
-import { MODULE_BASE_PATH, MAIN_PATH } from '../paths'
+import styles from '../main/styles.css'
+import { TransitionRoute } from '../main/components'
+import routes from './routes'
+import { MODULE_BASE_PATH, MAIN_PATH } from './paths'
 
 export default [
   {
