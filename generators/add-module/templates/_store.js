@@ -1,7 +1,7 @@
 // @flow
 import { observable, action } from 'mobx'
 
-export default new <%= storeName %> {
+export default new class <%= storeName %> {
   @observable list: Array<any> = []
   
   @action addItem = (item: any) => this.list.push(item)
