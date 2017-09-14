@@ -17,7 +17,7 @@ export default [
     path: MODULE_BASE_PATH,
     render: ({ location, history }: { location: Object, history: Object }) => (
       <div className={styles.vContainer}>
-        {routes.map(route => <TransitionRoute key={route.key} path={route.path} component={route.component} location={location} history={history} />)}
+        {routes.map((route, key) => <TransitionRoute key={key} path={route.path} component={route.component} location={location} history={history} />)}
       </div>
     )
   }
