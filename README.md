@@ -2,6 +2,8 @@
 
 Minimal tool for modules and components creation.
 
+This is super specific for Hadrons stack
+
 ## Usage
 
 ```bash
