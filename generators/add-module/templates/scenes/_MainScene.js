@@ -6,7 +6,7 @@ import { <%= mainComponentName %> } from '../components'
 
 @inject('<%= storeName %>')
 @observer
-export default class <%= mainSceneName %> extends React.Component {
+export default class <%= mainSceneName %> extends React.Component<*> {
   render() {
     return (
       <div>
