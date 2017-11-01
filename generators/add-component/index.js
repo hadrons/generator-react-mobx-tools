@@ -19,6 +19,11 @@ module.exports = class extends Generator {
       name: 'componentName',
       message: 'What is the component name?',
       default: 'SomeComponent'
+    }, {
+      type: 'input',
+      name: 'storeName',
+      message: 'What is the store name?',
+      default: 'SomeStore'
     }])
     this.answers = answers
   }
